@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: submission-service
-          image: vucongtuanduong/grading-submission:v1.0.2
+          image: vucongtuanduong/grading-submission:v1.0.4
           ports:
             - containerPort: 8082
           env:
