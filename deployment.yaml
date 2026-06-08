@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: submission-service
-          image: vucongtuanduong/grading-submission:IMAGE_TAG_REPLACEMENT
+          image: DOCKERHUB_USERNAME/submission-service:IMAGE_TAG_REPLACEMENT
           ports:
             - containerPort: 8082
           env:
