@@ -4,7 +4,7 @@ replicaCount: 1
 
 image:
   repository: vucongtuanduong/grading-submission
-  tag: "v1.0.11"
+  tag: "v1.0.12"
   pullPolicy: Always
 
 global:
