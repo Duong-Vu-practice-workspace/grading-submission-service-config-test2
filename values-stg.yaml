@@ -1,4 +1,5 @@
 name: submission-service
+hostname: submission
 
 replicaCount: 1
 

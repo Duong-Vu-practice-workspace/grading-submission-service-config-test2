@@ -1,6 +1,6 @@
 {{- $domain := .Values.global.domain }}
 {{- $prefix := .Values.global.prefix }}
-{{- $hostname := printf "%s-%s.%s" $prefix .Values.name $domain }}
+{{- $hostname := printf "%s-%s.%s" $prefix .Values.hostname $domain }}
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
